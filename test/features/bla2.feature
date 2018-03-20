@@ -4,4 +4,4 @@ Feature: Serve Candy
   If there is no candy left then money should be refunded
 
   Scenario: Buy last candy
-    Given I navigate to "localhost:4200"
+    When I navigate to "localhost:4200"

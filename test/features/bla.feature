@@ -4,4 +4,4 @@ Feature: Serve coffee
   If there is no coffee left then money should be refunded
 
   Scenario: Buy last coffee
-    Given I navigate to "localhost:4200"
+    When I navigate to "localhost:4200"
