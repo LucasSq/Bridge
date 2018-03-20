@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CulturePickerComponent } from './culture-picker/culture-picker.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CulturePickerComponent
   ],
   imports: [
     BrowserModule
